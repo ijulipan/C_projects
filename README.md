@@ -1,5 +1,17 @@
 # C_projects
 
+**Repo of My C_projects and learning materials**
+
+  **Signed & Unsigned Integer**
+  A signed integer is an integer that ranges from [-2147483648 to 2147483647]. An unsigned integer ranges a nonnegative integer from [0 to 4294967295]
+
+  **Stack**
+  Stack is a linear data structure and a basic algorithm involving _Last In First Out_ (LIFO) rule. Element insertion and deletion always occur at the top. 
+
+  Common terms associated with stack is **push** (adding elements) and **pop** (removing elements) from the stack.
+
+  An example of a stack is placed in (/learn/c_concepts/stack.c).
+
 **How to build a kernel module**
 
 1. Create the C program containing the init, exit and operations of the driver
