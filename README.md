@@ -1,6 +1,7 @@
 # C_projects
 
 **Repo of My C_projects and learning materials**
+ 
   **Pointers**
 
   Pointers are variables that stores the memory address of another variable as its value. Pointers must point to the same data type and are initialised using the '*' operator.
