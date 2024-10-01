@@ -1,0 +1,20 @@
+// Strings can be declared and stored using a two-dimensional array.
+// e.g char strings[5][20].
+// However, this is wasting memory as C allocates a fixed mount of space
+// for each string, which leads to potential memory wastage.
+// Instead, we can use an array of pointers. 
+
+// planets is an array of pointers which each element points to a string
+// (which is actually a character array terminated by a null character)
+// Each string does not require a fixed size so no wastage occurs.
+char *planets[] = {
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Pluto"
+};
