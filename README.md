@@ -1,6 +1,11 @@
 # C_projects
 
 **Repo of My C_projects and learning materials**
+  **Pointers**
+
+  Pointers are variables that stores the memory address of another variable as its value. Pointers must point to the same data type and are initialised using the '*' operator.
+  
+   Refer the example at [pointers](https://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/pointer.c)
 
   **Signed & Unsigned Integer**
   
@@ -29,4 +34,4 @@ _make -C <path_to_linux_kernel_tree> M=<path_to_module> [target]_
         3. clean: Remove all built modules
         4. help: Show the list of commands available
 
-Automated build process has been made, please refer to Makefile in hellworld directory
+Automated build process has been made, please refer to Makefile in [helloworld](https://github.com/ijulipan/C_projects/blob/main/linux_driver_development/char_device/helloworld/Makefile)

@@ -23,5 +23,10 @@ int main(){
 
 
 
+    int i = 0x11223344; 
+    int *ptr2 = &i;
+
+    printf("This is the memory address of 0x%x: %x", i, ptr2);
+
     return 0;
 }
