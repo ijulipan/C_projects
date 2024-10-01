@@ -6,7 +6,7 @@
 
   Pointers are variables that stores the memory address of another variable as its value. Pointers must point to the same data type and are initialised using the '*' operator.
   
-   Refer the example at [pointers](https://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/pointer.c)
+   Refer the example at [pointers](https://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/pointer/pointer.c)
 
   **Signed & Unsigned Integer**
   
