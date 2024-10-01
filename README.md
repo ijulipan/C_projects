@@ -12,7 +12,7 @@
 
   Common terms associated with stack is **push** (adding elements) and **pop** (removing elements) from the stack.
 
-  An example of a stack is placed in (/learn/c_concepts/stack.c).
+  An example of a stack is placed in [stack](https://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/stack.c).
 
 **How to build a kernel module**
 
