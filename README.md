@@ -4,7 +4,7 @@
  
 
 ## Table of Contents
-- [Preprocessor, Compilation Process and Memory Segments](ttps://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/preprocessor_macro/README.md)
+- [Preprocessor, Compilation Process and Memory Segments](https://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/preprocessor_macro/README.md)
 
 
   **Pointers**
