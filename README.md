@@ -1,6 +1,7 @@
 # C_projects
 
 **Repo of My C_projects and learning materials**
+ 
 
 ## Table of Contents
 - [Preprocessor, Compilation Process and Memory Segments](ttps://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/preprocessor_macro/README.md)
@@ -10,7 +11,7 @@
 
   Pointers are variables that stores the memory address of another variable as its value. Pointers must point to the same data type and are initialised using the '*' operator.
   
-   Refer the example at [pointers](https://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/pointer.c)
+   Refer the example at [pointers](https://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/pointer/pointer.c)
 
   **Signed & Unsigned Integer**
   
