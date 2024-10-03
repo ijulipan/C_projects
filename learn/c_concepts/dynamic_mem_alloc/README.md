@@ -14,13 +14,9 @@ ptr = (Type*) malloc(size);
 ptr = (int*) malloc(100 * sizeof(int));
 ```
 
-Above is an example of how to use `malloc()` function, where the function returns a void pointer which can be casted into pointers of any form (i.e int). 
+Above is an example of how to use `malloc()` function, where the function returns a void pointer which can be casted into pointers of any form (i.e int). The above example will allocate 400 bytes of memory because the size of `int` is always 4 bytes. 
 
-The above example will allocate 400 bytes of memory because the size of `int` is always 4 bytes. 
-
-The pointer `ptr` will hold the address of the first byte in the allocated memory.
-
-The expression will result in a `NULL` pointer if the memory cannot be allocated.
+The pointer `ptr` will hold the address of the first byte in the allocated memory. The expression will result in a `NULL` pointer if the memory cannot be allocated.
 
 ## CALLOC ##
 
