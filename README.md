@@ -5,7 +5,7 @@
 
 ## Table of Contents
 - [Preprocessor, Compilation Process and Memory Segments](https://github.com/ijulipan/C_projects/blob/main/learn/c_concepts/preprocessor_macro/README.md)
-
+- [Dynamic Memory Allocation](https://githubg.com/ijulipan/C_projects/blob/main/learn/c_concepts/dynamic_mem_alloc/README.md)
 
   **Pointers**
 
