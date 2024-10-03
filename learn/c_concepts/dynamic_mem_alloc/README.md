@@ -91,6 +91,7 @@ For example:
 // Syntax of realloc()
 ptr = realloc(ptr, x);
 
+// Code example
 #include <stdio.h>
 #include <stdlib.h>
 
