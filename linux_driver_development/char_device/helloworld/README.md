@@ -1,4 +1,4 @@
-**How to build a kernel module**
+# How to build a kernel module
 
 1. Create the C program containing the init, exit and operations of the driver
 2. Create a local Makefile (refer to hello world Makefile)
