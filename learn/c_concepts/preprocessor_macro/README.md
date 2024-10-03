@@ -5,9 +5,9 @@
 
 Preprocessing is the first stage in the C compilation process, where the preprocessor prepares the code for compilation. Some terms involved with this process is:-
 
-    1. *Macros*: Replace defined constants or macros with their values
-    2 *File Inclusion*: Insert the contents of included files (#include)
-    3. *Conditional Compilation*: Exclude/include parts of code based on conditions (#ifdef, ifndef)
+    1. Macros: Replace defined constants or macros with their values
+    2 File Inclusion: Insert the contents of included files (#include)
+    3. Conditional Compilation: Exclude/include parts of code based on conditions (#ifdef, ifndef)
 
 ### Macros ###
 
