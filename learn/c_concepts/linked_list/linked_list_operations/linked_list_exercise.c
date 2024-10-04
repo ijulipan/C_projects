@@ -59,16 +59,9 @@ void InsertNode(struct node *head, int n){
     }
 }
 
-// STU structure
-struct STU{
-    int id;
-    char name[50];
-    struct STU* next;
-};
-
 //Modify a node to include different data or different structure alltogether
-void change(struct STU* head, int n){
-    struct STU* p = head;
+void change(struct node* head, int n){
+    struct node* p = head;
     int i = 0;
 
     while(i < n && p != NULL){
@@ -76,23 +69,40 @@ void change(struct STU* head, int n){
         i++;
     }
     if(p != NULL){
-        printf("Enter new data:\n");
-        scanf("%d %s", &p->id, &p->name);
+        printf("Enter new data: ");
+        scanf("%d" , &p->data);
     } else{
         printf("Node does not exist!\n");
     }
+}
+
+// Reverse a linked list
+struct node* link_reversed_order(struct node* head){
+    struct node *previous = NULL, *current = NULL, *next = NULL;
+
+    current = head->next; // Start from the first node
+    while(current != NULL)
+    {
+        next = current->next; // Store the next node to 'next'
+        current->next = previous; // Reverse the link
+        previous = current; // Move previous pointer one step ahead
+        current = next; // move current one step ahead
+    }
+
+    head->next = previous; // update head to point to the new head of the list
 }
 
 int main(){
 
     struct node *head = create(5);
 
-    InsertNode(head, 3);
+    // InsertNode(head, 3);
     printLinkedLists(head);
-
-    struct STU *head2;
-    change(head2, 2);
+    head = link_reversed_order(head);
     printLinkedLists(head);
+    
+    // change(head, 2);
+    // printLinkedLists(head);
 
 
 }

@@ -60,8 +60,8 @@ void insertNode(struct link* head, int n){
 
 
 // Modifies an existing node in the linked list
-void change(struct Stu* head, int n) {
-    struct Stu* p = head;
+void change(struct link* head, int n) {
+    struct link* p = head;
     int i = 0;
     
     // Traverse to the nth node
@@ -72,34 +72,23 @@ void change(struct Stu* head, int n) {
 
     if (p != NULL) {
         printf("Insert new data:\n");
-        scanf("%d%s", &p->id, p->name); // Modify the node's data
+        scanf("%d", &p->data); // Modify the node's data
     } else {
         printf("Node does not exist！\n"); 
     }
 
 
 // Reverses a linked list by reversing the direction of the links between nodes
-STU* link_reversed_order(STU* head) {
-    STU *pf = NULL, *pb = NULL, *tmp = NULL;
-    pf = head; // Initialize pf with the head
+struct link* link_reversed_order(struct link* head) {
+    struct link *previous = NULL, *current = NULL, *next = NULL;
+    current = head->next; // Initialize current node to the first node
 
-    if (head == NULL) {
-        printf("Empty list, no need to reverse！\n"); 
-        return head;
-    } else if (head->next == NULL) {
-        printf("Single node, no need to reverse！\n"); 
-        return head;
-    } else {
-        pb = pf->next; // pb points to the next node
-        head->next = NULL; // Set head’s next to NULL (head becomes the tail)
-
-        while (pb != NULL) {
-            tmp = pb; // Temporarily store pb
-            pb = pb->next; // Move pb to the next node
-            tmp->next = pf; // Reverse the link
-            pf = tmp; // Move pf to tmp
-        }
-        head = pf; // New head of the reversed list
-        return head;
+    while(current != NULL){
+        next = current->next; // set next to the next node of the current node
+        current->next = previous; // Set the current pointer to point to the previous node
+        previous = current; // Set the previous node to the current node
+        current = next; // Set the current node to the next node
     }
-}
+    head->next = previous; // Point the head to the previous node
+    return head;
+    }
