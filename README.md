@@ -17,7 +17,7 @@
 - [Array Sorting - Quick Sort](/learn/c_concepts/array_sorting/quick_sort/)
 - [Memory Management](/learn/c_concepts/memory_management/)
 ### Projects
-- [Building Linux Modules](https://github.com/ijulipan/C_projects/blob/main/linux_driver_development/char_device/hello_world/).
+- [Building Linux Modules](/linux_driver_development/char_device/helloworld/)
 ### Simple Programs
 - [ASCII Code](/learn/simple_programs/ASCII_code/ascii_code.c)
 - [Beep Sound](/learn/simple_programs/beep_sound/beep_sound.c)
