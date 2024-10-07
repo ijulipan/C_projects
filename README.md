@@ -11,7 +11,7 @@
 - [Stack](/learn/c_concepts/stack/STACK.md)
 - [Linked Lists](/learn/c_concepts/linked_list/LINKED_LIST.md)
 - [Queue](/learn/c_concepts/queue/queue.md)
-
+- [Array Sorting - Selection Sort](/learn/c_concepts/array_sorting/selection_sort/README.md)
 ### Projects
 - [Building Linux Modules](https://github.com/ijulipan/C_projects/blob/main/linux_driver_development/char_device/hello_world/README.md).
 
