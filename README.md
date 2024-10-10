@@ -16,6 +16,8 @@
 - [Array Sorting - Insertion Sort](/learn/c_concepts/array_sorting/insertion_sort/)
 - [Array Sorting - Quick Sort](/learn/c_concepts/array_sorting/quick_sort/)
 - [Memory Management](/learn/c_concepts/memory_management/)
+- [Fork and Pipe](/learn/file_operations/fork_pipe/)
+- [Thread and Mutex](/learn/file_operations/thread_mutex/)
 ### Projects
 - [Building Linux Modules](/linux_driver_development/char_device/helloworld/)
 ### Simple Programs
