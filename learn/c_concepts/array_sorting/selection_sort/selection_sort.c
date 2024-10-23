@@ -8,7 +8,7 @@ void selectionSort(int arr[], int n){
             // Find the smallest element in the unsorted portion
 
             if(arr[j] < arr[minIndex]){
-                minIndex = j;// Udate minIndex if a smaller element is found
+                minIndex = j;// Update minIndex if a smaller element is found
             }
         }
         // Swap the found minimum element with the first element of the unsorted array

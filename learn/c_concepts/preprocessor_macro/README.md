@@ -164,3 +164,39 @@ To prevent multiple inclusions of the same header file, the `#ifndef` is often u
 
 #endif                   // End of multiple-inclusion guard
 ```
+
+**`#line` Macro**
+
+The `#line` directive is used to reset the line number and filename in the code. Which means that the user can reset any line of code to an arbitrary line number or a filename defined by the user.
+
+Syntax:
+
+```C
+#line <new_line_number> <new_filename>
+```
+
+Example code:
+
+```C
+#include <stdio.h>
+
+int main(){
+
+    printf("Hello world\n"); // line 6
+    printf("Line: %d\n", __LINE__); // printing line number, line 7
+
+    #line 23 // set the line number to 23
+    printf("Line: %d\n", __LINE__); // line number 23
+    printf("Line: %d\n", __LINE__); // line number 24
+    printf("Line: %d\n", __LINE__); // line number 25
+
+    // Changing the filename
+
+    printf("Line: %d, File: %s\n", __LINE__, __FILE__); // line number 29 and current file
+    // use line to change filename to new_filename.c
+    #line 83 "new_filename.c"
+    printf("Line: %d, File: %s\n", __LINE__, __FILE__); // line number 83 and changed filename to new_filename.c
+
+    return 0;
+}
+```
